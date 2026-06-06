@@ -3,25 +3,19 @@ layout: default
 title: Home
 ---
 
-<!-- LOGO + TAGLINE ABOVE HERO -->
-<div class="w-full bg-white py-6 px-6 border-b border-gray-200">
-  <div class="max-w-7xl mx-auto flex items-center gap-4">
+<!-- HEADER + NAVIGATION -->
+<nav class="w-full bg-white shadow-sm border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
 
-    <!-- Logo -->
-    <img src="/assets/images/logo.png"
-         class="w-20 h-20 bg-white p-2 rounded-lg shadow-sm border border-gray-200"
-         alt="Logo">
+    <div class="flex items-center gap-4">
+      <img src="/assets/images/logo.png"
+           class="w-20 h-20 bg-white p-2 rounded-lg shadow-sm border border-gray-200"
+           alt="Logo">
+      <span class="text-2xl font-semibold tracking-wide text-[#0f4d8a]">
+        Partnering for Optimal Solutions
+      </span>
+    </div>
 
-    <!-- Tagline -->
-    <span class="text-2xl font-semibold tracking-wide text-[#0f4d8a]">
-      Partnering for Optimal Solutions
-    </span>
-
-  </div>
-</div>
-
-
-    <!-- Nav Links -->
     <div class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
       <a href="/" class="hover:text-[#0f4d8a] transition">Home</a>
       <a href="/blog.html" class="hover:text-[#0f4d8a] transition">Insights</a>
@@ -29,7 +23,6 @@ title: Home
       <a href="#contact" class="hover:text-[#0f4d8a] transition">Contact</a>
     </div>
 
-    
   </div>
 </nav>
 
