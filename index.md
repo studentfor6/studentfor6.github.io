@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: default
+title: Home
 ---
 
 <div class="hero hero-row">
@@ -8,7 +9,6 @@ layout: home
     <h1>Regulatory guidance for pharma products and global submissions</h1>
     <p class="tagline">End-to-end regulatory support for pharmaceutical and life-science organizations, from dossier preparation to submission strategy and compliance execution.</p>
     <p class="hero-buttons">
-      <a class="button button-primary" href="mailto:vivek@astarregsol.com">Request a consultation</a>
       <a class="button button-secondary" href="./blog.html">Explore insights</a>
     </p>
   </div>

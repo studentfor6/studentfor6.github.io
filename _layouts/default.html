@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ page.title | default: site.title }}</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Your existing stylesheet -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Site metadata -->
+  {{ site.head }}
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+
+  <!-- Site Header (optional, can be styled later) -->
+  <header class="max-w-6xl mx-auto px-6 py-6">
+    <a href="/" class="text-2xl font-semibold tracking-tight">
+      {{ site.title }}
+    </a>
+  </header>
+
+  <!-- Main content -->
+  <main class="max-w-6xl mx-auto px-6">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="max-w-6xl mx-auto px-6 py-10 text-sm text-gray-600">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
