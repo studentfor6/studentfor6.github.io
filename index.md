@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Astar Regulatory Solutions"
+title: "A-Star Regulatory Solutions"
 ---
 
-# Astar Regulatory Solutions  
+# A-Star Regulatory Solutions  
 ### Pharma Regulatory Consulting by Vivek
 
 I provide end‑to‑end regulatory support for pharmaceutical and life‑science organizations, helping them navigate global compliance requirements with clarity and confidence.
@@ -64,6 +64,6 @@ I regularly publish short, practical insights on regulatory topics.
 
 If you’d like to discuss a project or request a quote, reach out:
 
-📧 **your-email@domain.com**  
+📧 **vivek@astarregsol.com**  
 🌐 **www.astarregsol.com**
 
