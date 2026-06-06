@@ -172,41 +172,7 @@ title: Home
 </section>
 
 
-<!-- FOOTER -->
-<footer class="w-full bg-[#0b3a63] text-white py-10 mt-10">
-  <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
 
-    <div>
-      <h3 class="text-lg font-semibold mb-3">A‑Star Regulatory Solutions</h3>
-      <p class="text-white/80 text-sm">
-        Partnering for Optimal Solutions in Pharma Regulatory Affairs.
-      </p>
-    </div>
-
-    <div>
-      <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
-      <ul class="space-y-2 text-white/80">
-        <li><a href="/" class="hover:text-white">Home</a></li>
-        <li><a href="/blog.html" class="hover:text-white">Insights</a></li>
-        <li><a href="#services" class="hover:text-white">Services</a></li>
-        <li><a href="#contact" class="hover:text-white">Contact</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h3 class="text-lg font-semibold mb-3">Contact</h3>
-      <p class="text-white/80 text-sm">
-        Email: vivek@astarregsol.com<br>
-        Website: www.astarregsol.com
-      </p>
-    </div>
-
-  </div>
-
-  <div class="text-center text-white/60 text-sm mt-10">
-    © {{ site.time | date: "%Y" }} A‑Star Regulatory Solutions. All rights reserved.
-  </div>
-</footer>
 
 
 <!-- ANIMATION UTILITIES -->
