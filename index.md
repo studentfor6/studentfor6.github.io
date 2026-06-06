@@ -6,29 +6,31 @@ title: Home
 <!-- HERO SECTION -->
 <div class="relative max-w-3xl mx-auto">
 
-  <!-- Logo inside the box, top-right -->
-  <div class="absolute top-4 right-4 flex items-center gap-2">
-    <img src="/assets/images/logo.png" class="w-12 h-12 rounded-md shadow-md" alt="Logo">
-    <span class="text-white text-sm font-semibold">placeholder</span>
+  <!-- Header row: logo + tagline -->
+  <div class="flex items-center gap-3 mb-4">
+    <img src="/assets/images/logo.png" class="w-14 h-14 rounded-md shadow-md" alt="Logo">
+    <span class="text-gray-800 text-lg font-semibold">
+      Partnering for Optimal Solutions
+    </span>
   </div>
 
   <!-- Main hero box -->
-  <div class="bg-gradient-to-br from-[#0f4d8a] to-[#1c6ab6] text-white 
-              rounded-2xl px-8 py-16 shadow-xl">
+  <div class="bg-gradient-to-br from-[#0f4d8a] to-[#1c6ab6] 
+              text-white rounded-2xl px-8 py-16 shadow-xl">
 
     <div class="space-y-6 text-center">
-      <h1 class="text-3xl md:text-4xl font-bold leading-tight">
+      <h1 class="text-3xl md:text-4xl font-bold leading-tight text-white">
         Regulatory guidance for pharma products and global submissions
       </h1>
 
-      <p class="text-white/90 text-lg leading-relaxed">
+      <p class="text-white text-lg leading-relaxed opacity-95">
         End‑to‑end regulatory support for pharmaceutical and life‑science organizations,
         from dossier preparation to submission strategy and compliance execution.
       </p>
 
       <a href="./blog.html"
-         class="inline-block px-6 py-3 rounded-lg bg-white/20 border border-white/40 
-                text-white font-medium hover:bg-white/30 transition">
+         class="inline-block px-6 py-3 rounded-lg bg-white/25 border border-white/50 
+                text-white font-medium hover:bg-white/35 transition">
         Explore insights
       </a>
     </div>
