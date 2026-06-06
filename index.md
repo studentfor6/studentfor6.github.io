@@ -49,7 +49,7 @@ title: Home
     </p>
 
     <a href="./blog.html"
-       class="inline-block px-8 py-3 rounded-lg bg-white/20 border border-white/40 text-white font-medium hover:bg-white/30 transition animate-slideUp delay-300">
+       class="inline-block px-8 py-3 rounded-lg border border-white/40 text-white font-medium hover:bg-white/30 transition animate-slideUp delay-300">
       Explore insights
     </a>
   </div>
@@ -138,7 +138,7 @@ title: Home
   </p>
 
   <a href="./blog.html"
-     class="inline-block px-6 py-3 rounded-lg bg-[#0f4d8a] text-white font-medium hover:bg-[#1c6ab6] transition animate-slideUp">
+     class="inline-block px-6 py-3 rounded-lg  text-white font-medium hover:bg-[#1c6ab6] transition animate-slideUp">
     Visit the blog →
   </a>
 </section>
