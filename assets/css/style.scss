@@ -1,0 +1,156 @@
+---
+---
+
+@import "minima";
+
+:root {
+  --color-bg: #f3f7fb;
+  --color-surface: #ffffff;
+  --color-primary: #0f4d8a;
+  --color-primary-soft: #1d6bb0;
+  --color-accent: #f3a14f;
+  --color-text: #11213a;
+  --color-muted: #42506c;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.hero {
+  background: linear-gradient(160deg, #0f4d8a 0%, #1c6ab6 100%);
+  color: white;
+  padding: 5rem 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1.5rem;
+}
+
+.hero-logo {
+  width: 120px;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.hero .eyebrow {
+  color: rgba(255, 255, 255, 0.75);
+  text-transform: uppercase;
+  letter-spacing: 0.24em;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.75rem, 4vw, 4.25rem);
+  line-height: 1.02;
+  margin: 0;
+  max-width: 12ch;
+  margin-inline: auto;
+}
+
+.hero .tagline {
+  margin: 1.6rem auto 2.4rem;
+  max-width: 40rem;
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.8;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-buttons .button {
+  min-width: 180px;
+}
+
+.button-primary {
+  background-color: #ffb54a;
+  color: #11213a;
+  border: none;
+}
+
+.button-secondary {
+  background-color: rgba(255, 255, 255, 0.14);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.33);
+}
+
+.section {
+  padding: 3rem 1.5rem;
+}
+
+.section h2,
+.section h3 {
+  color: var(--color-text);
+}
+
+.service-grid,
+.feature-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid rgba(17, 33, 58, 0.08);
+  border-radius: 1.25rem;
+  padding: 1.75rem;
+  box-shadow: 0 24px 60px rgba(17, 33, 58, 0.06);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+.card p {
+  margin: 0;
+  color: var(--color-muted);
+  line-height: 1.75;
+}
+
+.feature-grid {
+  grid-template-columns: 1.4fr 1fr;
+}
+
+.feature-grid .card {
+  padding: 2rem;
+}
+
+.cta-banner {
+  background: linear-gradient(90deg, rgba(15, 77, 138, 0.12), rgba(255, 181, 74, 0.12));
+  border-radius: 1.25rem;
+  padding: 2.5rem 1.75rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.cta-banner p {
+  margin: 0;
+  color: var(--color-text);
+}
+
+.cta-banner .button {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    padding: 3.5rem 1rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
