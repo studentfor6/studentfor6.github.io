@@ -49,7 +49,7 @@ title: Home
     </p>
 
     <a href="./blog.html"
-       class="inline-block px-8 py-3 rounded-lg border border-white/40 text-white font-medium hover:bg-white/30 transition animate-slideUp delay-300">
+       class="inline-block px-8 py-3 rounded-lg border border-white/40 text-white font-medium bg-white/30 transition animate-slideUp delay-300">
       Explore insights
     </a>
   </div>
