@@ -3,15 +3,15 @@ layout: default
 title: Home
 ---
 
-<!-- TOP NAVIGATION (DDReg-style) -->
+<!-- TOP NAVIGATION  -->
 <nav class="w-full bg-white shadow-sm border-b border-gray-200">
-  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-    <div class="max-w-6xl mx-auto flex items-center gap-4 mb-10">
-        <img src="/assets/images/logo.png" class="w-16 h-16 rounded-md shadow-md" alt="Logo">
-        <span class="text-xl font-semibold tracking-wide">
-        Partnering for Optimal Solutions
-        </span>
-    </div>
+  <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-start gap-4">
+    <img src="/assets/images/logo.png" class="w-16 h-16 rounded-md shadow-md" alt="Logo">
+    <span class="text-xl font-semibold tracking-wide text-gray-800">
+      Partnering for Optimal Solutions
+    </span>
+  </div>
+</nav>
   
 
     <!-- Nav Links -->
