@@ -7,11 +7,7 @@ title: Home
 <nav class="w-full bg-white shadow-sm border-b border-gray-200">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
-    <!-- Logo + Brand -->
-    <div class="flex items-center gap-3">
-      <img src="/assets/images/logo.png" class="w-12 h-12" alt="Logo">
-      <span class="text-xl font-semibold text-gray-800">A‑Star Regulatory Solutions</span>
-    </div>
+  
 
     <!-- Nav Links -->
     <div class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
