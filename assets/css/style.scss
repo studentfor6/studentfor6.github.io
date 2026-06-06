@@ -22,24 +22,57 @@ body {
   background: linear-gradient(160deg, #0f4d8a 0%, #1c6ab6 100%);
   color: white;
   padding: 5rem 1.5rem;
-  text-align: center;
   margin-bottom: 2rem;
   border-radius: 1.5rem;
 }
 
+.hero-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: left;
+}
+
 .hero-logo {
-  width: 120px;
+  width: 96px;
+  min-width: 96px;
   max-width: 100%;
-  margin: 0 auto 1.5rem;
   display: block;
 }
 
-.hero .eyebrow {
-  color: rgba(255, 255, 255, 0.75);
-  text-transform: uppercase;
-  letter-spacing: 0.24em;
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
+.hero-text {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 4vw, 3.75rem);
+}
+
+.hero .tagline {
+  margin: 0;
+  max-width: 42rem;
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.8;
+}
+
+@media (max-width: 780px) {
+  .hero-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-logo {
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    align-items: center;
+  }
 }
 
 .hero h1 {
