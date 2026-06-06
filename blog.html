@@ -1,21 +1,26 @@
 ---
 layout: default
-title: Regulatory Insights Blog
+title: Insights
 ---
 
-<section class="max-w-4xl mx-auto mt-12 px-4">
-  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
-    <div>
-      <h1 class="text-4xl font-bold text-gray-900">Regulatory Insights Blog</h1>
-      <p class="mt-3 text-gray-600 max-w-2xl">
-        Welcome to our Regulatory Insights Blog, where we share the latest news, trends, and expert advice on pharmaceutical regulatory affairs.
-        Stay informed with our in-depth articles, case studies, and industry updates to help you navigate the complex world of pharma regulations.
-        Whether you're a seasoned professional or new to the field, our blog is your go-to resource for all things regulatory.
+<section class="max-w-4xl mx-auto px-6 py-12">
+  <h1 class="text-3xl font-bold mb-8">Regulatory Insights</h1>
+
+  {% for post in site.posts %}
+    <div class="mb-10 pb-6 border-b border-gray-200">
+      <h2 class="text-2xl font-semibold">
+        <a href="{{ post.url }}" class="text-[#0f4d8a] hover:underline">
+          {{ post.title }}
+        </a>
+      </h2>
+
+      <p class="text-gray-500 text-sm mb-3">
+        {{ post.date | date: "%B %d, %Y" }}
+      </p>
+
+      <p class="text-gray-700">
+        {{ post.description }}
       </p>
     </div>
-
-    <a href="/">
-      Back to Home
-    </a>
-  </div>
-</section>  
+  {% endfor %}
+</section>
