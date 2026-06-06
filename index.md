@@ -22,11 +22,7 @@ title: Home
       <a href="#contact" class="hover:text-[#0f4d8a] transition">Contact</a>
     </div>
 
-    <!-- CTA -->
-    <a href="mailto:vivek@astarregsol.com"
-       class="hidden md:inline-block px-5 py-2 bg-[#0f4d8a] text-white rounded-lg font-medium hover:bg-[#1c6ab6] transition">
-      Get in Touch
-    </a>
+    
   </div>
 </nav>
 
