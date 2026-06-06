@@ -12,7 +12,7 @@ title: A-Star
            class="w-20 h-20 bg-white p-2 rounded-lg shadow-sm border border-gray-200"
            alt="Logo">
       <span class="text-2xl font-semibold tracking-wide text-[#0f4d8a]">
-        Partnering for Optimal Solutions
+        A-Star Regulatory Solutions
       </span>
     </div>
 
@@ -44,8 +44,7 @@ title: A-Star
     </h1>
 
     <p class="text-white text-lg leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
-      End‑to‑end regulatory support for pharmaceutical and life‑science organizations,
-      from dossier preparation to submission strategy and compliance execution.
+      Partnering for Optimal Solutions 
     </p>
 
   
