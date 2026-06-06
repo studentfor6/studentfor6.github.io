@@ -6,7 +6,12 @@ title: Home
 <!-- TOP NAVIGATION (DDReg-style) -->
 <nav class="w-full bg-white shadow-sm border-b border-gray-200">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-
+    <div class="max-w-6xl mx-auto flex items-center gap-4 mb-10">
+        <img src="/assets/images/logo.png" class="w-16 h-16 rounded-md shadow-md" alt="Logo">
+        <span class="text-xl font-semibold tracking-wide">
+        Partnering for Optimal Solutions
+        </span>
+    </div>
   
 
     <!-- Nav Links -->
@@ -34,12 +39,7 @@ title: Home
   <div class="absolute inset-0 bg-[#0b3a63]/70"></div>
 
   <!-- Header row: logo + tagline -->
-  <div class="max-w-6xl mx-auto flex items-center gap-4 mb-10">
-    <img src="/assets/images/logo.png" class="w-16 h-16 rounded-md shadow-md" alt="Logo">
-    <span class="text-xl font-semibold tracking-wide">
-      Partnering for Optimal Solutions
-    </span>
-  </div>
+
 
   <!-- Main hero content -->
   <div class="max-w-4xl mx-auto space-y-6">
