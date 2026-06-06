@@ -4,7 +4,18 @@ title: Insights
 ---
 
 <section class="max-w-4xl mx-auto px-6 py-12">
-  <h1 class="text-3xl font-bold mb-8">Regulatory Insights</h1>
+  <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-8">
+    <div>
+      <h1 class="text-4xl font-bold text-gray-900">Regulatory Insights Blog</h1>
+      <p class="text-gray-600 mt-3 max-w-2xl">
+        Welcome to our Regulatory Insights Blog, where we share the latest news, trends, and expert advice on pharmaceutical regulatory affairs.
+        Stay informed with our in-depth articles, case studies, and industry updates.
+      </p>
+    </div>
+    <a href="/" class="inline-block px-6 py-3 bg-[#0f4d8a] text-white rounded-lg font-medium hover:bg-[#1c6ab6] transition">
+      Back to Home
+    </a>
+  </div>
 
   {% for post in site.posts %}
     <div class="mb-10 pb-6 border-b border-gray-200">
