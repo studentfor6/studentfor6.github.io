@@ -27,7 +27,11 @@ title: Home
 
 
 <!-- HERO SECTION (DDReg-style full-width) -->
-<section class="w-full bg-[#0b3a63] text-white py-20 px-6 shadow-lg animate-fadeIn">
+<section class="relative w-full bg-[#0b3a63] text-white py-20 px-6 shadow-lg bg-cover bg-center"
+         style="background-image: url('/assets/images/banner1.png');">
+
+  <!-- Overlay for readability -->
+  <div class="absolute inset-0 bg-[#0b3a63]/70"></div>
 
   <!-- Header row: logo + tagline -->
   <div class="max-w-6xl mx-auto flex items-center gap-4 mb-10">
