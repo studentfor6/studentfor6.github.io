@@ -48,10 +48,7 @@ title: Home
       from dossier preparation to submission strategy and compliance execution.
     </p>
 
-    <a href="./blog.html"
-       class="inline-block px-8 py-3 rounded-lg border border-white/40 font-white font-medium bg-white/30 transition animate-slideUp delay-300">
-      Explore insights
-    </a>
+  
   </div>
 
 </section>
