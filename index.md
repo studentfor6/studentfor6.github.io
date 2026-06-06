@@ -3,44 +3,43 @@ layout: home
 title: "A-Star Regulatory Solutions"
 ---
 
-# A-Star Regulatory Solutions  
-### Pharma Regulatory Consulting by Vivek
+!# A-Star Regulatory Solutions  
+### Pharma Regulatory Consulting
 
-I provide end‑to‑end regulatory support for pharmaceutical and life‑science organizations, helping them navigate global compliance requirements with clarity and confidence.
+We provide end‑to‑end regulatory support for pharmaceutical and life‑science organizations, helping them navigate global compliance requirements with clarity and confidence.
 
 ---
 
 ## About Me
 
-I am a regulatory affairs professional with experience supporting:
+I am a regulatory affairs professional with 25+ years experience leading:
 - Drug product submissions  
 - Dossier preparation (CTD/eCTD)  
 - Quality & compliance documentation  
-- GMP audit readiness  
 - Lifecycle management activities  
 
-My focus is on delivering accurate, compliant, and timely regulatory solutions for small and mid‑sized pharma companies.
+Our focus is on delivering accurate, compliant, and timely regulatory solutions for pharma companies.
 
 ---
 
 ## Services Offered
 
 ### **Regulatory Documentation**
-- Module 1–5 CTD preparation  
+- Module 2 & 3 CTD preparation 
 - eCTD compilation and publishing  
 - Variation filings  
 - Response-to-queries support  
 
-### **Quality & Compliance**
+<!-- ### **Quality & Compliance**
 - SOP creation and review  
 - Quality system documentation  
 - Deviation/CAPA documentation  
-- Internal audit support  
+- Internal audit support   -->
 
 ### **Regulatory Strategy**
 - Market entry guidance  
 - Gap assessments  
-- Risk-based regulatory planning  
+- Lifecycle management
 
 ---
 
@@ -55,7 +54,7 @@ My focus is on delivering accurate, compliant, and timely regulatory solutions f
 
 ## Blog: Regulatory Insights
 
-I regularly publish short, practical insights on regulatory topics.  
+Watch this space for practical insights on regulatory topics.. Coming Soon!
 [Visit the blog →](./blog.html)
 
 ---
