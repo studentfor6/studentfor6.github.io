@@ -76,12 +76,7 @@ title: Home
     </p>
   </div>
 
-  <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-100">
-    <h3 class="text-xl font-semibold mb-3">Compliance documentation</h3>
-    <p class="leading-relaxed opacity-95">
-      Quality and regulatory documents that support audits, inspections, and lifecycle management with precision.
-    </p>
-  </div>
+
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-200">
     <h3 class="text-xl font-semibold mb-3">Regulatory strategy</h3>
