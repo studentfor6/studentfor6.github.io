@@ -70,25 +70,37 @@ title: A-Star
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp">
     <h3 class="text-xl font-semibold mb-3">Regulatory CMC strategy</h3>
-    <p class="leading-relaxed opacity-95">
-      Initial marketing authorizations, Post – approval variations, Response to queries
-    </p>
+    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+      <li>Initial marketing authorizations</li>
+      <li>Post – approval variations</li>
+      <li>Response to queries</li>
+    </ul>
   </div>
 
 
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-200">
     <h3 class="text-xl font-semibold mb-3">Submission – ready dossiers</h3>
-    <p class="leading-relaxed opacity-95">
-      Strategy aligned CMC data generation, CMC data review for submission adequacy & accuracy, Authoring and/or review of CTD Module 2 & 3, Response to queries, Post – approval variations, Renewals & Annual Reports
-    </p>
+    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+      <li>Strategy aligned CMC data generation</li>
+      <li>CMC data review for submission adequacy & accuracy</li>
+      <li>Authoring and/or review of:
+        <ul class="ml-5 list-disc list-inside space-y-2">
+          <li>CTD Module 2 & 3</li>
+          <li>Response to queries</li>
+          <li>Post – approval variations</li>
+          <li>Renewals & Annual Reports</li>
+        </ul>
+      </li>
+    </ul>
   </div>
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-300">
     <h3 class="text-xl font-semibold mb-3">Regulatory compliance</h3>
-    <p class="leading-relaxed opacity-95">
-      Gap analysis b/w filed/ approved content & current site documentation, CTD authoring for gap remediation
-    </p>
+    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+      <li>Gap analysis b/w filed/ approved content & current site documentation</li>
+      <li>CTD authoring for gap remediation</li>
+    </ul>
   </div>
 
 </section>
