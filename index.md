@@ -36,6 +36,7 @@ title: A-Star
       Partnering for Optimal Solutions 
       
     </h1>
+    </div>
 
     <p class="text-white text-lg leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
       Regulatory guidance for pharma products and global submissions
