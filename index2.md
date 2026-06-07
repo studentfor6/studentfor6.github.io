@@ -38,8 +38,8 @@ permalink: /sandbox/
     <div class="max-w-3xl space-y-8">
       <span class="inline-flex items-center gap-2 rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200 ring-1 ring-cyan-300/30">
         Regulatory Expertise with focus on Excellence</span>
-      <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">A‑Star Regulatory Solutions can help transform regulatory requirements into clear, actionable deliverables — from initial registrations to lifecycle compliance</h2>
-      <p class="text-lg md:text-xl text-slate-200 leading-relaxed">Clear guidance, compliant outputs, and dependable delivery — every time.</p>
+      <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">Clear guidance, compliant outputs, and dependable delivery — every time.</h2>
+      <p class="text-lg md:text-xl text-slate-200 leading-relaxed">A‑Star Regulatory Solutions can help transform regulatory requirements into clear, actionable deliverables — from initial registrations to lifecycle compliance</p>
       <div class="flex flex-col sm:flex-row sm:items-center gap-4">
         <a href="#services" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-8 py-3 text-base font-semibold text-slate-950 shadow-xl shadow-cyan-400/30 transition transform hover:-translate-y-1">View services</a>
         <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-slate-200/30 bg-white/10 px-8 py-3 text-base text-white transition hover:border-cyan-300 hover:text-cyan-200">Book a call</a>
