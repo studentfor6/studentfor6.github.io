@@ -29,7 +29,7 @@ permalink: /sandbox/
 </nav>
 
 <!-- HERO SECTION -->
-<section class="relative overflow-hidden bg-[url('/assets/images/banner1.png')] bg-cover bg-center min-h-[90vh]">
+<section class="relative overflow-hidden bg-[url('/assets/images/banner1.png')] bg-cover bg-center min-h-[90vh] mt-8">
   <div class="absolute inset-0 bg-gradient-to-br from-slate-950/80 via-indigo-950/50 to-fuchsia-950/60"></div>
   <div class="absolute -left-16 top-20 w-72 h-72 rounded-full bg-cyan-500/20 blur-3xl"></div>
   <div class="absolute right-0 bottom-12 w-80 h-80 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
