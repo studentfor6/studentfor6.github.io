@@ -69,25 +69,25 @@ title: A-Star
                 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp">
-    <h3 class="text-xl font-semibold mb-3">Submission-ready dossiers</h3>
+    <h3 class="text-xl font-semibold mb-3">Regulatory CMC strategy</h3>
     <p class="leading-relaxed opacity-95">
-      CTD/eCTD assembly, Module 2 & 3 documentation, variation filings, and dossier updates for regulatory authorities worldwide.
+      Initial marketing authorizations, Post – approval variations, Response to queries
     </p>
   </div>
 
 
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-200">
-    <h3 class="text-xl font-semibold mb-3">Regulatory strategy</h3>
+    <h3 class="text-xl font-semibold mb-3">Submission – ready dossiers</h3>
     <p class="leading-relaxed opacity-95">
-      Market entry guidance, gap assessments, and submission planning to keep your product on track and aligned with expectations.
+      Strategy aligned CMC data generation, CMC data review for submission adequacy & accuracy, Authoring and/or review of CTD Module 2 & 3, Response to queries, Post – approval variations, Renewals & Annual Reports
     </p>
   </div>
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-300">
-    <h3 class="text-xl font-semibold mb-3">Direct expert support</h3>
+    <h3 class="text-xl font-semibold mb-3">Regulatory compliance</h3>
     <p class="leading-relaxed opacity-95">
-      Single-point engagement with experienced regulatory leadership, so every decision is clear, practical, and efficient.
+      Gap analysis b/w filed/ approved content & current site documentation, CTD authoring for gap remediation
     </p>
   </div>
 
