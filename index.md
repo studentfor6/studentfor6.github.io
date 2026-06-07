@@ -43,7 +43,7 @@ title: A-Star
   Partnering for Optimal Solutions 
       
     </h1>
-    <p class="text-white text-xl leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
+    <p class="text-white text-2xl leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
     Clear guidance, compliant submissions & dependable delivery - every time.
     </p>
     </div>
