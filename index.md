@@ -43,7 +43,7 @@ title: A-Star
   Partnering for Optimal Solutions 
       
     </h1>
-    <p class="text-white text-2xl leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
+    <p class="text-white text-xl leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
     Clear guidance, compliant submissions & dependable delivery - every time.
     </p>
     </div>
@@ -69,10 +69,10 @@ title: A-Star
                 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp">
-    <h3 class="text-xl font-semibold mb-3">Regulatory CMC strategy</h3>
-    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+    <h3 class="text-xl font-semibold mb-3">Regulatory CMC Strategy</h3>
+    <ul class="space-y-3 text-lg leading-relaxed opacity-95 list-disc list-inside">
       <li>Initial marketing authorizations</li>
-      <li>Post – approval variations</li>
+      <li>Post–approval variations</li>
       <li>Response to queries</li>
     </ul>
   </div>
@@ -80,15 +80,15 @@ title: A-Star
 
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-200">
-    <h3 class="text-xl font-semibold mb-3">Submission – ready dossiers</h3>
-    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+    <h3 class="text-xl font-semibold mb-3">Submission–ready Dossiers</h3>
+    <ul class="space-y-3 text-lg leading-relaxed opacity-95 list-disc list-inside">
       <li>Strategy aligned CMC data generation</li>
       <li>CMC data review for submission adequacy & accuracy</li>
       <li>Authoring and/or review of:
         <ul class="ml-5 list-disc list-inside space-y-2">
           <li>CTD Module 2.3 (QOS) & Module 3</li>
           <li>Response to queries</li>
-          <li>Post – approval variations</li>
+          <li>Post–approval variations</li>
           <li>Renewals & Annual Reports</li>
         </ul>
       </li>
@@ -96,8 +96,8 @@ title: A-Star
   </div>
 
   <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-300">
-    <h3 class="text-xl font-semibold mb-3">Regulatory compliance</h3>
-    <ul class="space-y-3 text-sm leading-relaxed opacity-95 list-disc list-inside">
+    <h3 class="text-xl font-semibold mb-3">Regulatory Compliance</h3>
+    <ul class="space-y-3 text-lg leading-relaxed opacity-95 list-disc list-inside">
       <li>Gap analysis b/w filed/ approved content & current site documentation</li>
       <li>CTD authoring for gap remediation</li>
     </ul>
