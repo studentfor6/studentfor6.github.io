@@ -39,15 +39,16 @@ title: A-Star
   <div class="max-w-4xl mx-auto space-y-6">
 
   
-    <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-slideUp">
-      Partnering for Optimal Solutions 
+  <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-slideUp">
+  Partnering for Optimal Solutions 
       
     </h1>
-    </div>
-
     <p class="text-white text-lg leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
       Regulatory guidance for pharma products and global submissions
     </p>
+    </div>
+
+    
 
   
   </div>
