@@ -37,9 +37,9 @@ permalink: /sandbox/
   <div class="relative z-10 max-w-6xl mx-auto px-6 py-24 text-white">
     <div class="max-w-3xl space-y-8">
       <span class="inline-flex items-center gap-2 rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200 ring-1 ring-cyan-300/30">
-        New look, stronger presence</span>
-      <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">Bright, bold regulatory design with a premium pharma focus.</h2>
-      <p class="text-lg md:text-xl text-slate-200 leading-relaxed">A-Star helps pharmaceutical teams move faster with submission-ready dossiers, audit-ready documentation, and regulatory strategy that stands out with polished clarity.</p>
+        Regulatory Expertise with focus on Excellence</span>
+      <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">A‑Star Regulatory Solutions can help transform regulatory requirements into clear, actionable deliverables — from initial registrations to lifecycle compliance</h2>
+      <p class="text-lg md:text-xl text-slate-200 leading-relaxed">Clear guidance, compliant outputs, and dependable delivery — every time.</p>
       <div class="flex flex-col sm:flex-row sm:items-center gap-4">
         <a href="#services" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-8 py-3 text-base font-semibold text-slate-950 shadow-xl shadow-cyan-400/30 transition transform hover:-translate-y-1">View services</a>
         <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-slate-200/30 bg-white/10 px-8 py-3 text-base text-white transition hover:border-cyan-300 hover:text-cyan-200">Book a call</a>
