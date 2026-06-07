@@ -57,22 +57,22 @@ permalink: /sandbox/
       <p class="text-slate-600 leading-relaxed">From dossier delivery to submission strategy, the A-Star experience combines polished documentation with user-centered clarity and compliance-first execution.</p>
     </div>
     <div class="grid gap-5 sm:grid-cols-2">
-      <div class="rounded-[32px] bg-gradient-to-br from-sky-600 to-cyan-400 p-6 text-white shadow-2xl shadow-sky-500/20 transition transform hover:-translate-y-2">
+      <div class="rounded-[32px] bg-gradient-to-br from-sky-600 to-cyan-400 p-6 text-white shadow-2xl shadow-sky-500/20 transition duration-700 transform animate-slideUp delay-100 hover:-translate-y-4 hover:shadow-[0_30px_90px_-30px_rgba(14,165,233,0.7)]">
         <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
         <h4 class="mt-4 text-xl font-semibold">Submission-ready dossiers</h4>
         <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Complete CTD/eCTD builds, module specialization, and global-ready packaging with fast turnarounds.</p>
       </div>
-      <div class="rounded-[32px] bg-gradient-to-br from-fuchsia-600 to-pink-500 p-6 text-white shadow-2xl shadow-fuchsia-500/20 transition transform hover:-translate-y-2">
+      <div class="rounded-[32px] bg-gradient-to-br from-fuchsia-600 to-pink-500 p-6 text-white shadow-2xl shadow-fuchsia-500/20 transition duration-700 transform animate-slideUp delay-150 hover:-translate-y-4 hover:shadow-[0_30px_90px_-30px_rgba(236,72,153,0.7)]">
         <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
         <h4 class="mt-4 text-xl font-semibold">Regulatory strategy</h4>
         <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Clear planning for market entry, variation filings, and sponsor-friendly regulatory roadmaps.</p>
       </div>
-      <div class="rounded-[32px] bg-gradient-to-br from-emerald-600 to-lime-400 p-6 text-white shadow-2xl shadow-emerald-500/20 transition transform hover:-translate-y-2">
+      <div class="rounded-[32px] bg-gradient-to-br from-emerald-600 to-lime-400 p-6 text-white shadow-2xl shadow-emerald-500/20 transition duration-700 transform animate-slideUp delay-200 hover:-translate-y-4 hover:shadow-[0_30px_90px_-30px_rgba(16,185,129,0.7)]">
         <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
         <h4 class="mt-4 text-xl font-semibold">Direct expert support</h4>
         <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Hands-on advisory from experienced consultants who keep your documentation and submission goals aligned.</p>
       </div>
-      <div class="rounded-[32px] bg-gradient-to-br from-indigo-600 to-violet-500 p-6 text-white shadow-2xl shadow-indigo-500/20 transition transform hover:-translate-y-2">
+      <div class="rounded-[32px] bg-gradient-to-br from-indigo-600 to-violet-500 p-6 text-white shadow-2xl shadow-indigo-500/20 transition duration-700 transform animate-slideUp delay-250 hover:-translate-y-4 hover:shadow-[0_30px_90px_-30px_rgba(79,70,229,0.7)]">
         <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
         <h4 class="mt-4 text-xl font-semibold">Audit-ready compliance</h4>
         <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Documentation that is ready for inspection, review, and fast approval by regulatory authorities.</p>
@@ -84,8 +84,8 @@ permalink: /sandbox/
 <!-- FEATURE GRID -->
 <section class="max-w-7xl mx-auto px-6 pb-24">
   <div class="grid gap-8 lg:grid-cols-2">
-    <div class="relative overflow-hidden rounded-[36px] bg-slate-950 p-10 text-white shadow-2xl shadow-slate-900/30">
-      <div class="absolute -right-16 top-8 h-48 w-48 rounded-full bg-cyan-400/20 blur-3xl"></div>
+    <div class="relative overflow-hidden rounded-[36px] bg-slate-950 p-10 text-white shadow-2xl shadow-slate-900/30 transition duration-700 transform animate-fadeIn delay-200 hover:-translate-y-2">
+      <div class="absolute -right-16 top-8 h-48 w-48 rounded-full bg-cyan-400/20 blur-3xl animate-float"></div>
       <h3 class="text-3xl font-semibold mb-6">Why clients choose A-Star</h3>
       <ul class="space-y-4 text-slate-200">
         <li class="rounded-3xl bg-white/5 p-5">• 25+ years of pharma regulatory experience</li>
@@ -95,8 +95,8 @@ permalink: /sandbox/
       </ul>
     </div>
 
-    <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-white to-slate-100 p-10 shadow-2xl shadow-slate-300/40">
-      <div class="absolute -left-16 bottom-10 h-44 w-44 rounded-full bg-fuchsia-300/20 blur-3xl"></div>
+    <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-white to-slate-100 p-10 shadow-2xl shadow-slate-300/40 transition duration-700 transform animate-fadeIn delay-300 hover:-translate-y-2">
+      <div class="absolute -left-16 bottom-10 h-44 w-44 rounded-full bg-fuchsia-300/20 blur-3xl animate-float"></div>
       <h3 class="text-3xl font-semibold mb-6 text-slate-950">What sets this service apart</h3>
       <ul class="space-y-4 text-slate-700">
         <li class="rounded-3xl bg-slate-950/5 p-5">• Hands-on dossier preparation and review</li>
@@ -113,7 +113,7 @@ permalink: /sandbox/
   <div class="max-w-5xl mx-auto px-6 text-center">
     <h3 class="text-3xl md:text-4xl font-semibold">Ready to elevate your regulatory documents?</h3>
     <p class="mt-4 text-slate-300">Let’s build a standout submission experience that feels modern, accurate, and audit-ready.</p>
-    <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+    <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn delay-300">
       <a href="mailto:hello@example.com" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-8 py-3 text-base font-semibold text-slate-950 transition hover:bg-cyan-300">Email me</a>
       <a href="/blog.html" class="inline-flex items-center justify-center rounded-full border border-slate-700 px-8 py-3 text-base text-slate-200 transition hover:border-cyan-300 hover:text-cyan-200">See insights</a>
     </div>
@@ -131,11 +131,21 @@ permalink: /sandbox/
   .delay-100 { animation-delay: 0.1s }
   .delay-150 { animation-delay: 0.15s }
   .delay-200 { animation-delay: 0.2s }
+  .delay-250 { animation-delay: 0.25s }
   .delay-300 { animation-delay: 0.3s }
 
   @keyframes fadeIn {
     from { opacity: 0 }
     to { opacity: 1 }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite both;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); opacity: 0.85; }
+    50% { transform: translateY(-18px); opacity: 1; }
   }
 
   @keyframes slideUp {
