@@ -5,7 +5,7 @@ permalink: /sandbox/
 ---
 
 <!-- HEADER + NAVIGATION -->
-<nav class="w-full bg-blue-950/90 backdrop-blur-sm border-b border-slate-800 shadow-lg">
+<nav class="w-full bg-slate-950/90 backdrop-blur-sm border-b border-slate-800 shadow-lg">
   <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
 
     <div class="flex items-center gap-4">
