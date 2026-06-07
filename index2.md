@@ -5,169 +5,120 @@ permalink: /sandbox/
 ---
 
 <!-- HEADER + NAVIGATION -->
-<nav class="w-full bg-white shadow-sm border-b border-gray-200">
+<nav class="w-full bg-slate-950/90 backdrop-blur-sm border-b border-slate-800 shadow-lg">
   <div class="max-w-7xl mx-auto px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
 
     <div class="flex items-center gap-4">
       <img src="/assets/images/logo.png"
-           class="w-20 h-20 bg-white p-2 rounded-lg shadow-sm border border-gray-200"
+           class="w-20 h-20 bg-white p-2 rounded-3xl shadow-xl border border-slate-300"
            alt="Logo">
-      <span class="text-2xl font-semibold tracking-wide text-[#0f4d8a]">
-        A-Star Regulatory Solutions
-      </span>
+      <div>
+        <p class="text-sm uppercase tracking-[0.24em] text-cyan-300">A-Star Regulatory Solutions</p>
+        <h1 class="text-xl md:text-2xl font-semibold text-white">Focused on pharma compliance</h1>
+      </div>
     </div>
 
-    <div class="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-      <a href="/" class="hover:text-[#0f4d8a] transition">Home</a>
-      <a href="/blog.html" class="hover:text-[#0f4d8a] transition">Insights</a>
-      <a href="#services" class="hover:text-[#0f4d8a] transition">Services</a>
-      <a href="#contact" class="hover:text-[#0f4d8a] transition">Contact</a>
+    <div class="hidden md:flex items-center gap-8 text-slate-200 font-medium">
+      <a href="/" class="transition hover:text-cyan-300">Home</a>
+      <a href="/blog.html" class="transition hover:text-fuchsia-300">Insights</a>
+      <a href="#services" class="transition hover:text-emerald-300">Services</a>
+      <a href="#contact" class="transition hover:text-sky-300">Contact</a>
     </div>
 
   </div>
 </nav>
 
+<!-- HERO SECTION -->
+<section class="relative overflow-hidden bg-[url('/assets/images/banner1.png')] bg-cover bg-center min-h-[90vh]">
+  <div class="absolute inset-0 bg-gradient-to-br from-slate-950/80 via-indigo-950/50 to-fuchsia-950/60"></div>
+  <div class="absolute -left-16 top-20 w-72 h-72 rounded-full bg-cyan-500/20 blur-3xl"></div>
+  <div class="absolute right-0 bottom-12 w-80 h-80 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
 
-<!-- HERO SECTION  -->
-<section class="relative w-full bg-[#0b3a63] text-white py-20 px-6 shadow-lg bg-cover bg-center"
-         style="background-image: url('/assets/images/banner1.png');">
-
-  <!-- Overlay for readability -->
-  <div class="absolute inset-0 bg-[#0b3a63]/70"></div>
-
-  <!-- Header row: logo + tagline -->
-
-
-  <!-- Main hero content -->
-  <div class="max-w-4xl mx-auto space-y-6">
-    <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-slideUp">
-      Partnering for Optimal Solutions 
-      
-    </h1>
-
-    <p class="text-white text-lg leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
-      Regulatory guidance for pharma products and global submissions
-    </p>
-
-  
+  <div class="relative z-10 max-w-6xl mx-auto px-6 py-24 text-white">
+    <div class="max-w-3xl space-y-8">
+      <span class="inline-flex items-center gap-2 rounded-full bg-cyan-400/10 px-4 py-2 text-sm text-cyan-200 ring-1 ring-cyan-300/30">
+        New look, stronger presence</span>
+      <h2 class="text-4xl md:text-6xl font-bold tracking-tight leading-tight">Bright, bold regulatory design with a premium pharma focus.</h2>
+      <p class="text-lg md:text-xl text-slate-200 leading-relaxed">A-Star helps pharmaceutical teams move faster with submission-ready dossiers, audit-ready documentation, and regulatory strategy that stands out with polished clarity.</p>
+      <div class="flex flex-col sm:flex-row sm:items-center gap-4">
+        <a href="#services" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-8 py-3 text-base font-semibold text-slate-950 shadow-xl shadow-cyan-400/30 transition transform hover:-translate-y-1">View services</a>
+        <a href="#contact" class="inline-flex items-center justify-center rounded-full border border-slate-200/30 bg-white/10 px-8 py-3 text-base text-white transition hover:border-cyan-300 hover:text-cyan-200">Book a call</a>
+      </div>
+    </div>
   </div>
-
 </section>
 
-
-<!-- WHAT I CAN HELP YOU ACHIEVE -->
-<section id="services" class="max-w-4xl mx-auto mt-16 px-4">
-  <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center animate-fadeIn">
-    What I can help you achieve
-  </h2>
+<!-- SERVICES INTRO -->
+<section id="services" class="relative max-w-7xl mx-auto px-6 py-20">
+  <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] items-center">
+    <div class="space-y-5">
+      <p class="text-sm uppercase tracking-[0.3em] text-cyan-400">What I can help you achieve</p>
+      <h3 class="text-3xl md:text-4xl font-semibold text-slate-950">Colorful, modern regulatory services designed for confident pharma teams.</h3>
+      <p class="text-slate-600 leading-relaxed">From dossier delivery to submission strategy, the A-Star experience combines polished documentation with user-centered clarity and compliance-first execution.</p>
+    </div>
+    <div class="grid gap-5 sm:grid-cols-2">
+      <div class="rounded-[32px] bg-gradient-to-br from-sky-600 to-cyan-400 p-6 text-white shadow-2xl shadow-sky-500/20 transition transform hover:-translate-y-2">
+        <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
+        <h4 class="mt-4 text-xl font-semibold">Submission-ready dossiers</h4>
+        <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Complete CTD/eCTD builds, module specialization, and global-ready packaging with fast turnarounds.</p>
+      </div>
+      <div class="rounded-[32px] bg-gradient-to-br from-fuchsia-600 to-pink-500 p-6 text-white shadow-2xl shadow-fuchsia-500/20 transition transform hover:-translate-y-2">
+        <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
+        <h4 class="mt-4 text-xl font-semibold">Regulatory strategy</h4>
+        <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Clear planning for market entry, variation filings, and sponsor-friendly regulatory roadmaps.</p>
+      </div>
+      <div class="rounded-[32px] bg-gradient-to-br from-emerald-600 to-lime-400 p-6 text-white shadow-2xl shadow-emerald-500/20 transition transform hover:-translate-y-2">
+        <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
+        <h4 class="mt-4 text-xl font-semibold">Direct expert support</h4>
+        <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Hands-on advisory from experienced consultants who keep your documentation and submission goals aligned.</p>
+      </div>
+      <div class="rounded-[32px] bg-gradient-to-br from-indigo-600 to-violet-500 p-6 text-white shadow-2xl shadow-indigo-500/20 transition transform hover:-translate-y-2">
+        <p class="text-sm uppercase tracking-[0.24em] text-slate-100/80">Service</p>
+        <h4 class="mt-4 text-xl font-semibold">Audit-ready compliance</h4>
+        <p class="mt-3 text-sm leading-relaxed text-slate-100/90">Documentation that is ready for inspection, review, and fast approval by regulatory authorities.</p>
+      </div>
+    </div>
+  </div>
 </section>
-
-
-<!-- SERVICE GRID -->
-<section class="max-w-6xl mx-auto grid gap-6 px-4 
-                grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-
-  <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp">
-    <h3 class="text-xl font-semibold mb-3">Submission-ready dossiers</h3>
-    <p class="leading-relaxed opacity-95">
-      CTD/eCTD assembly, Module 2 & 3 documentation, variation filings, and dossier updates for regulatory authorities worldwide.
-    </p>
-  </div>
-
-
-
-  <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-200">
-    <h3 class="text-xl font-semibold mb-3">Regulatory strategy</h3>
-    <p class="leading-relaxed opacity-95">
-      Market entry guidance, gap assessments, and submission planning to keep your product on track and aligned with expectations.
-    </p>
-  </div>
-
-  <div class="bg-[#0f4d8a] text-white rounded-2xl p-6 shadow-md border border-blue-900/20 animate-slideUp delay-300">
-    <h3 class="text-xl font-semibold mb-3">Direct expert support</h3>
-    <p class="leading-relaxed opacity-95">
-      Single-point engagement with experienced regulatory leadership, so every decision is clear, practical, and efficient.
-    </p>
-  </div>
-
-</section>
-
 
 <!-- FEATURE GRID -->
-<section class="max-w-6xl mx-auto mt-16 grid gap-6 px-4 
-                grid-cols-1 lg:grid-cols-2">
+<section class="max-w-7xl mx-auto px-6 pb-24">
+  <div class="grid gap-8 lg:grid-cols-2">
+    <div class="relative overflow-hidden rounded-[36px] bg-slate-950 p-10 text-white shadow-2xl shadow-slate-900/30">
+      <div class="absolute -right-16 top-8 h-48 w-48 rounded-full bg-cyan-400/20 blur-3xl"></div>
+      <h3 class="text-3xl font-semibold mb-6">Why clients choose A-Star</h3>
+      <ul class="space-y-4 text-slate-200">
+        <li class="rounded-3xl bg-white/5 p-5">• 25+ years of pharma regulatory experience</li>
+        <li class="rounded-3xl bg-white/5 p-5">• Proven CTD/eCTD delivery for global markets</li>
+        <li class="rounded-3xl bg-white/5 p-5">• Clear, practical submission roadmaps</li>
+        <li class="rounded-3xl bg-white/5 p-5">• Fast, responsive collaboration with sponsors</li>
+      </ul>
+    </div>
 
-  <div class="bg-white rounded-2xl p-8 shadow-md border border-gray-200 animate-fadeIn">
-    <h3 class="text-xl font-semibold mb-4">Why clients choose A-Star</h3>
-    <ul class="text-gray-700 space-y-2">
-      <li>• 25+ years of pharma regulatory experience</li>
-      <li>• Proven CTD/eCTD delivery for global markets</li>
-      <li>• Clear, practical submission roadmaps</li>
-      <li>• Fast, responsive collaboration with sponsors</li>
-    </ul>
-  </div>
-
-  <div class="bg-white rounded-2xl p-8 shadow-md border border-gray-200 animate-fadeIn delay-150">
-    <h3 class="text-xl font-semibold mb-4">What sets this service apart</h3>
-    <ul class="text-gray-700 space-y-2">
-      <li>• Hands-on dossier preparation and review</li>
-      <li>• Quality documentation that supports approvals</li>
-      <li>• Flexible project or retained advisory support</li>
-      <li>• Confidential, professional engagement every step of the way</li>
-    </ul>
-  </div>
-
-</section>
-
-
-<!-- BLOG SECTION -->
-<section class="max-w-4xl mx-auto mt-20 px-4 text-center">
-  <h2 class="text-3xl font-bold text-gray-900 mb-4 animate-fadeIn">
-    Regulatory insights and updates
-  </h2>
-
-  <p class="text-gray-600 mb-6 animate-fadeIn delay-100">
-    Stay informed with practical guidance on regulatory topics, submission requirements, and global compliance trends.
-  </p>
-
-  <a href="./blog.html"
-     class="inline-block px-6 py-3 rounded-lg  text-white font-medium hover:bg-[#1c6ab6] transition animate-slideUp">
-    Visit the blog →
-  </a>
-</section>
-
-
-<!-- CTA BANNER -->
-<section class="max-w-6xl mx-auto mt-20 px-4">
-  <div class="bg-gradient-to-r from-blue-50 to-amber-50 rounded-2xl p-8 
-              flex flex-col md:flex-row items-center justify-between gap-6 animate-fadeIn">
-
-    <p class="text-gray-800 text-lg font-medium">
-      <strong>Ready to move your regulatory program forward?</strong><br>
-      Let’s connect on your next submission, filing, or compliance project.
-    </p>
-
-    <a href="mailto:vivek@astarregsol.com"
-       class="px-6 py-3 bg-[#0f4d8a] text-white rounded-lg font-semibold hover:bg-[#1c6ab6] transition">
-      Get in touch
-    </a>
+    <div class="relative overflow-hidden rounded-[36px] bg-gradient-to-br from-white to-slate-100 p-10 shadow-2xl shadow-slate-300/40">
+      <div class="absolute -left-16 bottom-10 h-44 w-44 rounded-full bg-fuchsia-300/20 blur-3xl"></div>
+      <h3 class="text-3xl font-semibold mb-6 text-slate-950">What sets this service apart</h3>
+      <ul class="space-y-4 text-slate-700">
+        <li class="rounded-3xl bg-slate-950/5 p-5">• Hands-on dossier preparation and review</li>
+        <li class="rounded-3xl bg-slate-950/5 p-5">• Quality documentation that supports approvals</li>
+        <li class="rounded-3xl bg-slate-950/5 p-5">• Flexible project or retained advisory support</li>
+        <li class="rounded-3xl bg-slate-950/5 p-5">• Confidential, professional engagement every step of the way</li>
+      </ul>
+    </div>
   </div>
 </section>
 
-
-<!-- CONTACT SECTION -->
-<section id="contact" class="max-w-4xl mx-auto mt-20 px-4 text-center mb-20">
-  <h2 class="text-3xl font-bold text-gray-900 mb-4 animate-fadeIn">Contact</h2>
-
-  <p class="text-gray-700 text-lg animate-fadeIn delay-100">
-    📧 <strong>vivek@astarregsol.com</strong><br>
-    🌐 <strong>www.astarregsol.com</strong>
-  </p>
+<!-- CALL TO ACTION -->
+<section id="contact" class="bg-slate-950 text-white py-16">
+  <div class="max-w-5xl mx-auto px-6 text-center">
+    <h3 class="text-3xl md:text-4xl font-semibold">Ready to elevate your regulatory documents?</h3>
+    <p class="mt-4 text-slate-300">Let’s build a standout submission experience that feels modern, accurate, and audit-ready.</p>
+    <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+      <a href="mailto:hello@example.com" class="inline-flex items-center justify-center rounded-full bg-cyan-400 px-8 py-3 text-base font-semibold text-slate-950 transition hover:bg-cyan-300">Email me</a>
+      <a href="/blog.html" class="inline-flex items-center justify-center rounded-full border border-slate-700 px-8 py-3 text-base text-slate-200 transition hover:border-cyan-300 hover:text-cyan-200">See insights</a>
+    </div>
+  </div>
 </section>
-
-
-
-
 
 <!-- ANIMATION UTILITIES -->
 <style>
