@@ -28,17 +28,10 @@ title: A-Star
 
 
 <!-- HERO SECTION  -->
-<section class="relative w-full bg-[#0b3a63] text-white py-20 px-6 shadow-lg bg-cover bg-center"
+<section class="relative overflow-hidden bg-[#0b3a63] text-white bg-cover bg-center min-h-[90vh] mt-8 py-24 px-6 shadow-lg"
          style="background-image: url('/assets/images/banner1.png');">
-
-  <!-- Overlay for readability -->
-  <div class="absolute inset-0 bg-[#0b3a63]/70"></div>
-
-  <!-- Header row: logo + tagline -->
-
-
-  <!-- Main hero content -->
-  <div class="max-w-4xl mx-auto space-y-6">
+  <div class="relative z-10 max-w-6xl mx-auto px-6 py-24 text-white">
+    <div class="max-w-3xl space-y-8">
     <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-slideUp">
       Partnering for Optimal Solutions 
       
