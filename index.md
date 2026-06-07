@@ -28,9 +28,9 @@ title: A-Star
 
 
 <!-- HERO SECTION  -->
-<section class="relative overflow-hidden bg-[#0b3a63] text-white bg-cover bg-center min-h-[90vh] mt-8 py-24 px-6 shadow-lg"
+<section class="relative overflow-hidden bg-[#0b3a63] text-white bg-cover bg-center min-h-[70vh] mt-8 py-24 px-6 shadow-lg"
          style="background-image: url('/assets/images/banner1.png');">
-    <div class="absolute inset-0 bg-white/10"></div>
+    <div class="absolute inset-0 bg-white/30"></div>
   <div class="relative z-10 max-w-6xl mx-auto px-6 py-24 text-white">
     <div class="max-w-3xl space-y-8">
     <h1 class="text-4xl md:text-5xl font-bold leading-tight animate-slideUp">
