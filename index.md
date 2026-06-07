@@ -44,7 +44,7 @@ title: A-Star
       
     </h1>
     <p class="text-white text-lg leading-relaxed opacity-95 max-w-3xl animate-slideUp delay-150">
-    Regulatory CMC guidance for human pharmaceuticals global submissions
+    Clear guidance, compliant submissions & dependable delivery - every time.
     </p>
     </div>
 
