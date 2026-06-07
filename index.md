@@ -86,7 +86,7 @@ title: A-Star
       <li>CMC data review for submission adequacy & accuracy</li>
       <li>Authoring and/or review of:
         <ul class="ml-5 list-disc list-inside space-y-2">
-          <li>CTD Module 2 & 3</li>
+          <li>CTD Module 2.3 QOS & 3</li>
           <li>Response to queries</li>
           <li>Post – approval variations</li>
           <li>Renewals & Annual Reports</li>
