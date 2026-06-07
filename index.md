@@ -28,7 +28,7 @@ title: A-Star
 
 
 <!-- HERO SECTION  -->
-<section class="relative w-full bg-[#0b3a63] text-white py-20 px-6 min-h-[60vh] shadow-lg bg-cover bg-center"
+<section class="relative w-full bg-[#0b3a63] text-white py-20 px-6 shadow-lg bg-cover bg-center"
          style="background-image: url('/assets/images/banner1.png');">
          
   <!-- Overlay for readability -->
