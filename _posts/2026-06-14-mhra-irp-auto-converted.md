@@ -19,7 +19,7 @@ description: "Auto-converted from Word document"
 </style>
 </head>
 
-<div class="prose max-w-full">
+
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Purpose</h2>
 
 <p class="text-base text-slate-700 mb-3 leading-relaxed">To expedite the approval &amp; availability of safe and effective medicines authorised by trusted regulators (Reference Regulators – see list below) to patients in the UK, while maintaining MHRA’s independent oversight.</p>
@@ -237,7 +237,7 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
 </li>
 
 </ol>
-</div>
+
 
 <hr class="my-8 border-slate-300">
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Disclaimer</strong></p>
