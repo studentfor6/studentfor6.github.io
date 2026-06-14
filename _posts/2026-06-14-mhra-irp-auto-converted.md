@@ -186,7 +186,7 @@ Post-authorisation IRP applications: Variations and Renewals</h2>
 
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li><a href="https://www.gov.uk/government/publications/international-recognition-procedure">https://www.gov.uk/government/publications/international-recognition-procedure</a> </li><li><a href="https://www.legislation.gov.uk/uksi/2012/1916/contents">https://www.legislation.gov.uk/uksi/2012/1916/contents</a></li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"></p>
 
-<h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">References</h2>
+<h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Footnotes</h2>
 
 <ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-6">
 
