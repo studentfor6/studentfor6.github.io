@@ -1,3 +1,5 @@
+
+
 #!/usr/bin/env python3
 """
 Post formatter to:
@@ -41,116 +43,160 @@ def extract_footnotes(html):
     return html, footnotes_html
 
 
-def find_table_footnotes(html, table_index):
-    """Find footnotes referenced within a specific table."""
-    # Split by tables
-    tables = re.findall(r'<div class="overflow-x-auto[^>]*>.*?</div>', html, re.DOTALL)
+
+# def find_table_footnotes(html, table_index):
+#     """Find footnotes referenced within a specific table."""
+#     # Split by tables
+#     tables = re.findall(r'<div class="overflow-x-auto[^>]*>.*?</div>', html, re.DOTALL)
     
-    if table_index >= len(tables):
-        return []
+#     if table_index >= len(tables):
+#         return []
     
-    table = tables[table_index]
+#     table = tables[table_index]
     
-    # Find all footnote references in this table
-    footnote_refs = re.findall(r'footnote-(\d+)', table)
-    return list(set(footnote_refs))  # Remove duplicates
+#     # Find all footnote references in this table
+#     footnote_refs = re.findall(r'footnote-(\d+)', table)
+#     return list(set(footnote_refs))  # Remove duplicates
 
 
-def reorganize_footnotes(html, footnotes_html):
-    """Move footnotes below their respective tables and add disclaimer."""
-    # Find all tables
-    tables = list(re.finditer(r'<div class="overflow-x-auto[^>]*>.*?</table>\s*</div>', html, re.DOTALL))
+# def reorganize_footnotes(html, footnotes_html):
+#     """Move footnotes below their respective tables and add disclaimer."""
+#     # Find all tables
+#     tables = list(re.finditer(r'<div class="overflow-x-auto[^>]*>.*?</table>\s*</div>', html, re.DOTALL))
     
-    if not tables:
+#     if not tables:
+#         return html
+
+#     # Process tables in reverse order to avoid index shifts
+#     used_originals = set()
+#     for i in range(len(tables) - 1, -1, -1):
+#         table = tables[i]
+#         table_text = html[table.start():table.end()]
+
+#         # Find footnote references in this table in appearance order
+#         ref_pattern = re.compile(r'<a[^>]*href="#footnote-(\d+)"[^>]*id="footnote-ref-(\d+)"[^>]*>\[.*?\]</a>')
+#         refs = ref_pattern.findall(table_text)
+#         if not refs:
+#             continue
+
+#         # Build unique ordered list of original footnote numbers as they appear
+#         ordered_nums = []
+#         for orig, _ in refs:
+#             if orig not in ordered_nums:
+#                 ordered_nums.append(orig)
+
+#         # Map original numbers to new sequential numbers (per-table)
+#         # Use a prefixed id to keep anchor ids unique across the page, e.g. '2-1'
+#         mapping = {}
+#         for idx, orig in enumerate(ordered_nums):
+#             label = str(idx + 1)
+#             prefixed = f"{i+1}-{label}"
+#             mapping[orig] = (label, prefixed)
+
+def extract_footnotes(html):
+    """
+    Extract all footnote <li> blocks and remove them from the HTML.
+    Keep original numbering exactly as Mammoth produced.
+    """
+    li_pattern = re.compile(r'<li\s+id="footnote-\d+">.*?</li>', re.DOTALL)
+    matches = li_pattern.findall(html)
+
+    # Remove footnotes from body
+    html = li_pattern.sub('', html)
+
+    # Remove empty <ol> left behind
+    html = re.sub(r'<ol[^>]*>\s*</ol>', '', html)
+
+    # Combine into a single ordered list
+    if matches:
+        footnotes_html = (
+            '<ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-6">\n'
+            + "\n".join(matches)
+            + "\n</ol>"
+        )
+    else:
+        footnotes_html = ""
+
+    return html, footnotes_html
+
+def insert_footnotes_at_end(html, footnotes_html):
+    """
+    Append all footnotes at the end of the post (before disclaimer/comments).
+    No renumbering, no table grouping.
+    """
+    if not footnotes_html:
         return html
 
-    # Process tables in reverse order to avoid index shifts
-    used_originals = set()
-    for i in range(len(tables) - 1, -1, -1):
-        table = tables[i]
-        table_text = html[table.start():table.end()]
-
-        # Find footnote references in this table in appearance order
-        ref_pattern = re.compile(r'<a[^>]*href="#footnote-(\d+)"[^>]*id="footnote-ref-(\d+)"[^>]*>\[.*?\]</a>')
-        refs = ref_pattern.findall(table_text)
-        if not refs:
-            continue
-
-        # Build unique ordered list of original footnote numbers as they appear
-        ordered_nums = []
-        for orig, _ in refs:
-            if orig not in ordered_nums:
-                ordered_nums.append(orig)
-
-        # Map original numbers to new sequential numbers (per-table)
-        # Use a prefixed id to keep anchor ids unique across the page, e.g. '2-1'
-        mapping = {}
-        for idx, orig in enumerate(ordered_nums):
-            label = str(idx + 1)
-            prefixed = f"{i+1}-{label}"
-            mapping[orig] = (label, prefixed)
-
-        # Update references inside the table_html to new numbers and unique ids
-        def repl_ref(match):
-            orig = match.group(1)
-            label, pref = mapping.get(orig, (orig, orig))
-            new_href = f'href="#footnote-{pref}"'
-            new_id = f'id="footnote-ref-{pref}"'
-            return match.group(0).replace(f'href="#footnote-{orig}"', new_href).replace(f'id="footnote-ref-{orig}"', new_id).replace(f'[{orig}]', f'[{label}]')
-
-        table_text_updated = ref_pattern.sub(repl_ref, table_text)
-
-        # Extract and renumber corresponding footnote definitions
-        table_footnotes = ""
-        for orig in ordered_nums:
-            li_pattern = re.compile(rf'(<li\s+id="footnote-{orig}">.*?</li>)', re.DOTALL)
-            m = li_pattern.search(footnotes_html)
-            if m:
-                li_html = m.group(1)
-                label, pref = mapping[orig]
-                # Update li id and backlink hrefs inside the li to use prefixed ids
-                li_html = re.sub(rf'id="footnote-{orig}"', f'id="footnote-{pref}"', li_html)
-                li_html = re.sub(rf'href="#footnote-ref-{orig}"', f'href="#footnote-ref-{pref}"', li_html)
-                # Also update any display of the reference number in the li if present
-                li_html = re.sub(rf'\[\s*{orig}\s*\]', f'[{label}]', li_html)
-                # Reduce footnote paragraph text size and colour for clarity
-                li_html = re.sub(r'text-base text-slate-700', 'text-sm text-slate-600', li_html)
-                table_footnotes += li_html
-                used_originals.add(orig)
-
-        if table_footnotes:
-            # Wrap in ol tags with smaller footnote text
-            footnotes_section = f'<ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-3">\n{table_footnotes}\n</ol>'
-
-            # Replace the original table with the updated one
-            html = html[:table.start()] + table_text_updated + html[table.end():]
-
-            # Insert the footnotes_section after the updated table
-            insert_pos = table.start() + len(table_text_updated)
-            html = html[:insert_pos] + "\n" + footnotes_section + "\n" + html[insert_pos:]
-
-    # After placing table-specific footnotes, append any remaining (non-table) footnotes
-    remaining_footnotes = ""
-    li_pattern_all = re.compile(r'<li\s+id="footnote-(\d+)">(.*?)</li>', re.DOTALL)
-    for m in li_pattern_all.finditer(footnotes_html):
-        orig = m.group(1)
-        li_html = m.group(0)
-        if orig in used_originals:
-            continue
-        # ensure small muted styling
-        li_html = re.sub(r'text-base text-slate-700', 'text-sm text-slate-600', li_html)
-        remaining_footnotes += li_html
-
-    if remaining_footnotes:
-        global_section = f'<ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-3">\n{remaining_footnotes}\n</ol>'
-        # Append near end before disclaimer/comments if present
-        # place before the last closing </div>
-        if html.rstrip().endswith('</div>'):
-            html = html.rstrip()[:-6] + global_section + '\n</div>'
-        else:
-            html = html + '\n' + global_section
+    # Insert before final </div> of prose container
+    if html.rstrip().endswith("</div>"):
+        html = html.rstrip()[:-6] + footnotes_html + "\n</div>"
+    else:
+        html = html + "\n" + footnotes_html
 
     return html
+
+
+    #     # Update references inside the table_html to new numbers and unique ids
+    #     def repl_ref(match):
+    #         orig = match.group(1)
+    #         label, pref = mapping.get(orig, (orig, orig))
+    #         new_href = f'href="#footnote-{pref}"'
+    #         new_id = f'id="footnote-ref-{pref}"'
+    #         return match.group(0).replace(f'href="#footnote-{orig}"', new_href).replace(f'id="footnote-ref-{orig}"', new_id).replace(f'[{orig}]', f'[{label}]')
+
+    #     table_text_updated = ref_pattern.sub(repl_ref, table_text)
+
+    #     # Extract and renumber corresponding footnote definitions
+    #     table_footnotes = ""
+    #     for orig in ordered_nums:
+    #         li_pattern = re.compile(rf'(<li\s+id="footnote-{orig}">.*?</li>)', re.DOTALL)
+    #         m = li_pattern.search(footnotes_html)
+    #         if m:
+    #             li_html = m.group(1)
+    #             label, pref = mapping[orig]
+    #             # Update li id and backlink hrefs inside the li to use prefixed ids
+    #             li_html = re.sub(rf'id="footnote-{orig}"', f'id="footnote-{pref}"', li_html)
+    #             li_html = re.sub(rf'href="#footnote-ref-{orig}"', f'href="#footnote-ref-{pref}"', li_html)
+    #             # Also update any display of the reference number in the li if present
+    #             li_html = re.sub(rf'\[\s*{orig}\s*\]', f'[{label}]', li_html)
+    #             # Reduce footnote paragraph text size and colour for clarity
+    #             li_html = re.sub(r'text-base text-slate-700', 'text-sm text-slate-600', li_html)
+    #             table_footnotes += li_html
+    #             used_originals.add(orig)
+
+    #     if table_footnotes:
+    #         # Wrap in ol tags with smaller footnote text
+    #         footnotes_section = f'<ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-3">\n{table_footnotes}\n</ol>'
+
+    #         # Replace the original table with the updated one
+    #         html = html[:table.start()] + table_text_updated + html[table.end():]
+
+    #         # Insert the footnotes_section after the updated table
+    #         insert_pos = table.start() + len(table_text_updated)
+    #         html = html[:insert_pos] + "\n" + footnotes_section + "\n" + html[insert_pos:]
+
+    # # After placing table-specific footnotes, append any remaining (non-table) footnotes
+    # remaining_footnotes = ""
+    # li_pattern_all = re.compile(r'<li\s+id="footnote-(\d+)">(.*?)</li>', re.DOTALL)
+    # for m in li_pattern_all.finditer(footnotes_html):
+    #     orig = m.group(1)
+    #     li_html = m.group(0)
+    #     if orig in used_originals:
+    #         continue
+    #     # ensure small muted styling
+    #     li_html = re.sub(r'text-base text-slate-700', 'text-sm text-slate-600', li_html)
+    #     remaining_footnotes += li_html
+
+    # if remaining_footnotes:
+    #     global_section = f'<ol class="list-decimal pl-6 space-y-2 text-sm text-slate-600 mb-3">\n{remaining_footnotes}\n</ol>'
+    #     # Append near end before disclaimer/comments if present
+    #     # place before the last closing </div>
+    #     if html.rstrip().endswith('</div>'):
+    #         html = html.rstrip()[:-6] + global_section + '\n</div>'
+    #     else:
+    #         html = html + '\n' + global_section
+
+    # return html
     
 
 
@@ -219,7 +265,9 @@ def format_post(file_path):
     body, footnotes_html = extract_footnotes(body)
     
     print("3. Reorganizing footnotes below tables...")
-    body = reorganize_footnotes(body, footnotes_html)
+    # body = reorganize_footnotes(body, footnotes_html)
+    body = insert_footnotes_at_end(body, footnotes_html)
+
     
     print("4. Adding disclaimer and comments section...")
     body = add_disclaimer_and_comments(body)
