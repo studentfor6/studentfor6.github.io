@@ -36,7 +36,7 @@ description: "Auto-converted from Word document"
     <tbody>
       <tr>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
-          <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Recognition A</strong></p>
+           <p class="text-base text-slate-700 mb-3 leading-relaxed whitespace-nowrap"><strong>Recognition A</strong></p>
         </td>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
           <p class="text-base text-slate-700 mb-3 leading-relaxed">60 calendar days from validation</p>
@@ -54,7 +54,7 @@ description: "Auto-converted from Word document"
 
       <tr>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
-          <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Recognition B</strong></p>
+            <p class="text-base text-slate-700 mb-3 leading-relaxed whitespace-nowrap"><strong>Recognition B</strong></p>
         </td>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
           <p class="text-base text-slate-700 mb-3 leading-relaxed">110 calendar days from validation</p>
@@ -134,7 +134,7 @@ description: "Auto-converted from Word document"
   </table>
 </div>
 
-</div><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Post-authorisation IRP applications: variations and renewals</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Applicable for line extensions, variations (Type 1B, Type II) and renewals. Type 1A variations may be submitted if approved by RR grouped with Type 1B or Type II variations.</li><li>Applicable for products that have been initially authorised or subsequently varied via standalone national, MRDCRP<sup><a href="#footnote-8" id="footnote-ref-8">[8]</a></sup> or ECDRP<sup><a href="#footnote-9" id="footnote-ref-9">[9]</a></sup> routes.</li><li>IRP route can be availed after RR approval.</li><li>Should submit the application to MHRA as soon as possible, and no later than 60 days following the final assessment being available from RR.</li><li>Generally recommended to use same RR for IRP applications throughout the product lifecycle, unless justified on patient benefit grounds.</li><li>Recognition routes A and B is only applicable for new IRP MAAs and line extensions.</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>For new IRP MAAs, the submission should include:</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Documentation of the RR’s approval decision</li><li>All available iterations of the RR’s assessment reports for the initial authorisation and any major post-authorisation procedures (for example, significant variations, renewals)</li><li>The final product information (or international equivalent) approved by the RR</li><li>A list of differences (other than formatting) between the dossier approved by the RR and that submitted to MHRA</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>For post-authorisation IRP applications (including variations), the submission should include:</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Documentation of the RR’s approval decision</li><li>All iterations of the RR’s assessment reports for the relevant post-authorisation procedure - note that an RR assessment report may not be needed for all Type IB variations, but provided where available</li><li>The final product information (or international equivalent) and/or updated risk management plan approved by the RR (if applicable)</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed">The complete list of RR documents for new IRP MAA is available at <a href="https://www.gov.uk/government/publications/international-recognition-procedure/international-recognition-procedure?utm_source=copilot.com">International Recognition Procedure - GOV.UK</a>.</p><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Key Takeaways</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>IRP offers the fastest UK route when leveraging EMA or other trusted RR approvals.</li><li>Recognition A (60 days) is ideal for straightforward cases; Recognition B (110 days) covers complex scenarios.</li><li>MHRA conducts targeted assessment; retains discretion to reject.</li><li>UK-wide licensing under Windsor Framework simplifies lifecycle management.</li><li>Strategic use of IRP enables synchronised EU–UK submissions, strengthening regulatory agility post-Brexit.</li></ul>
+</div><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Post-authorisation IRP applications: Variations and Renewals</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Applicable for line extensions, variations (Type 1B, Type II) and renewals. Type 1A variations may be submitted if approved by RR grouped with Type 1B or Type II variations.</li><li>Applicable for products that have been initially authorised or subsequently varied via standalone national, MRDCRP (Mutual Recognition/ Decentralised Reliance Procedure) or ECDRP routes.</li><li>IRP route can be availed after RR approval.</li><li>Should submit the application to MHRA as soon as possible, and no later than 60 days following the final assessment being available from RR.</li><li>Generally recommended to use same RR for IRP applications throughout the product lifecycle, unless justified on patient benefit grounds.</li><li>Recognition routes A and B is only applicable for new IRP MAAs and line extensions.</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>For new IRP MAAs, the submission should include:</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Documentation of the RR’s approval decision.</li><li>All available iterations of the RR’s assessment reports for the initial authorisation and any major post-authorisation procedures (for example, significant variations, renewals).</li><li>The final product information (or international equivalent) approved by the RR.</li><li>A list of differences (other than formatting) between the dossier approved by the RR and that submitted to MHRA.</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>For post-authorisation IRP applications (including variations), the submission should include:</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Documentation of the RR’s approval decision.</li><li>All iterations of the RR’s assessment reports for the relevant post-authorisation procedure - note that an RR assessment report may not be needed for all Type IB variations, but provided where available.</li><li>The final product information (or international equivalent) and/or updated risk management plan approved by the RR (if applicable).</li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed">The complete list of RR documents for new IRP MAA is available at <a href="https://www.gov.uk/government/publications/international-recognition-procedure/international-recognition-procedure?utm_source=copilot.com">International Recognition Procedure - GOV.UK</a>.</p><p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Key Takeaways</strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>IRP offers the fastest UK route when leveraging EMA or other trusted RR approvals.</li><li>Recognition A (60 days) is ideal for straightforward cases; Recognition B (110 days) covers complex scenarios.</li><li>MHRA conducts targeted assessment; retains discretion to reject.</li><li>UK-wide licensing under Windsor Framework simplifies lifecycle management.</li><li>Strategic use of IRP enables synchronised EU–UK submissions, strengthening regulatory agility post-Brexit.</li></ul>
 
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Sources: </strong></p><ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li><a href="https://www.gov.uk/government/publications/international-recognition-procedure">https://www.gov.uk/government/publications/international-recognition-procedure</a> </li><li><a href="https://www.legislation.gov.uk/uksi/2012/1916/contents">https://www.legislation.gov.uk/uksi/2012/1916/contents</a></li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"></p>
 
@@ -186,26 +186,15 @@ Great Britain (GB) – includes England, Scotland &amp; Wales
 The applicant can request an extension of the clock-stop. <a href="#footnote-ref-7">↑</a>
 </p>
 </li>
-<li id="footnote-8">
-    <p class="text-sm text-slate-600 mb-3 leading-relaxed">
-      Mutual Recognition/ Decentralised Reliance Procedure 
-      <a href="#footnote-ref-8">↑</a>
-    </p>
-  </li>
 
-  <li id="footnote-9">
-    <p class="text-sm text-slate-600 mb-3 leading-relaxed">
-      EC Decision Reliance Procedure
-      <a href="#footnote-ref-9">↑</a>
-    </p>
-  </li>
+
+
 
 </ol>
 
 <hr class="my-8 border-slate-300">
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Disclaimer</strong></p>
-<p class="text-sm text-slate-600 mb-6 leading-relaxed">This information is provided for educational purposes only and should not be considered as legal or regulatory advice. Always consult with qualified regulatory professionals for specific guidance.</p>
-<p> <br> <i> We welcome your perspectives — please share your thoughts in the comments below. </i> <br></p>
+<p class="text-sm text-slate-600 mb-6 leading-relaxed"> <i> This information is provided for educational purposes only and should not be considered as legal or regulatory advice. Always consult with qualified regulatory professionals for specific guidance. We welcome your perspectives — please share your thoughts in the comments section below. </i> <br></p>
 <hr class="my-8 border-slate-300">
 <h3 class="text-lg font-semibold text-[#0f4d8a] mb-4">Comments</h3>
 <div id="comments-section" class="bg-slate-50 p-6 rounded-lg border border-slate-200">
