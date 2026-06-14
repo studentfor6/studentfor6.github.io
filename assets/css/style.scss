@@ -187,3 +187,51 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Post-specific refinements to better match Word screenshots */
+.prose {
+  font-size: 1rem; /* 16px */
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.prose h2 {
+  font-size: 1.125rem; /* ~18px */
+  font-weight: 700;
+  color: var(--color-text);
+  margin-top: 0.5rem;
+}
+
+.prose h3 {
+  font-size: 1rem; /* 16px */
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+/* Table styling */
+table[role="table"] th {
+  background-color: var(--color-primary) !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+table[role="table"] td,
+table[role="table"] th {
+  border-color: rgba(15,77,138,0.08);
+}
+
+table[role="table"] caption {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  color: var(--color-muted);
+  margin-top: 0.5rem;
+}
+
+/* Slightly larger badges */
+.prose .inline-block.bg-\[\#e6f0fb\] {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
