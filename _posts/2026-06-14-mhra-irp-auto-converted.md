@@ -6,7 +6,7 @@ description: "Auto-converted from Word document"
 ---
 
 <head>
-+<style>
+<style>
 +  /* Make all H2 headings match the larger final H2 */
 +  .prose h2 {
 +    font-size: 1.875rem; /* larger size to match the final heading */
@@ -16,7 +16,7 @@ description: "Auto-converted from Word document"
 +    margin-top: 2.5rem;
 +    margin-bottom: 1rem;
 +  }
-+</style>
+</style>
 </head>
 
 <div class="prose max-w-full">
