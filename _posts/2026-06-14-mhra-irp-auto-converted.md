@@ -5,6 +5,18 @@ date: 2026-06-14
 description: "Auto-converted from Word document"
 ---
 
++<style>
++  /* Make all H2 headings match the larger final H2 */
++  .prose h2 {
++    font-size: 1.875rem; /* larger size to match the final heading */
++    line-height: 1.3;
++    font-weight: 700;
++    color: #0f1724;
++    margin-top: 2.5rem;
++    margin-bottom: 1rem;
++  }
++</style>
+
 <div class="prose max-w-full">
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Purpose</h2>
 
@@ -155,7 +167,6 @@ description: "Auto-converted from Word document"
   </table>
 </div>
 
-</div>
 
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">
 Post-authorisation IRP applications: Variations and Renewals</h2>
@@ -234,6 +245,7 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
 
 
 </ol>
+</div>
 
 <hr class="my-8 border-slate-300">
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Disclaimer</strong></p>
