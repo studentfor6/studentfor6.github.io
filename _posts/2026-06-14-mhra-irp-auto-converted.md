@@ -62,7 +62,24 @@ description: "Auto-converted from Word document"
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
           <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
             <li>RR approval within previous 10 years<sup><a href="#footnote-6" id="footnote-ref-6">[6]</a></sup>.</li>.
-            <li>Adopted if any of the criteria listed at the GOV.UK IRP page are met (e.g., additional manufacturing sites not assessed by RR; substantial changes in manufacturing/analytical methods; ATMPs; orphan designation; comparator sourced outside UK/EU/EEA; etc.).</li>
+            <li>Adopted if any of the criteria listed at the GOV.UK IRP page are met 
+            e.g.,-
+            
+            <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
+              <li>additional manufacturing sites are cited that have not been assessed by the RR. </li>
+              <li>There are substantial changes in the manufacturing process or analytical methods compared to that assessed by the RR. </li>
+              <li>At least one manufacturing site is not yet GMP certified. </li>
+              <li>The product contains a first-in-class new active substance. </li>
+              <li>The pivotal clinical data are from single arm studies.</li>
+              <li>The pivotal clinical data include real-world data.</li>
+              <li>Advanced Therapy Medicinal Products (ATMPs). </li>
+              <li>Application for orphan drug designation.</li>
+              <li>Comparator product used in bioequivalence or therapeutic equivalence study was sourced outside the UK/EU/EEA (generic/hybrid applications). </li>
+              
+              <li>An approved body or notified body report is not available for integral medical device components. </li>
+              <li>Proposed container closure system, shelf life or storage conditions differ from those accepted by the RR and/or additional stability studies have been provided to MHRA.</li>
+              </ul>
+              </li>
             <li>One clock stop at day 70, with up to 60 calendar days for the applicant to respond><sup><a href="#footnote-7" id="footnote-ref-7">[7]</a></sup>.</li>
             <li>If there are major outstanding objections at day 110, formal advice on approvability is sought from CHM and the timetable will revert to the national 210-day timetable.</li>
           </ul>
