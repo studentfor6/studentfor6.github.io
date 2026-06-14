@@ -1,0 +1,4 @@
+# Ignore Word documents and other exported office files
+MHRA International Recognition Procedure.docx
+*.docx
+*.doc
