@@ -242,25 +242,14 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
 <hr class="my-8 border-slate-300">
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Disclaimer</strong></p>
 <p class="text-sm text-slate-600 mb-6 leading-relaxed"> <i> This information is provided for educational purposes only and should not be considered as legal or regulatory advice. Always consult with qualified regulatory professionals for specific guidance. We welcome your perspectives — please share your thoughts in the comments section below. </i> <br></p>
-<hr class="my-8 border-slate-300">
-<h3 class="text-lg font-semibold text-[#0f4d8a] mb-4">Comments</h3>
-<div id="comments-section" class="bg-slate-50 p-6 rounded-lg border border-slate-200">
-  <form id="comment-form" class="space-y-4">
-    <div>
-      <label for="commenter-name" class="block text-base font-medium text-slate-700 mb-2">Name</label>
-      <input type="text" id="commenter-name" name="name" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0f4d8a]" required>
-    </div>
-        <div>
-            <label for="commenter-email" class="block text-base font-medium text-slate-700 mb-2">Email (optional)</label>
-            <input type="email" id="commenter-email" name="email" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0f4d8a]">
-        </div>
-    <div>
-      <label for="commenter-comment" class="block text-base font-medium text-slate-700 mb-2">Your Comment</label>
-      <textarea id="commenter-comment" name="comment" rows="4" class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0f4d8a]" required></textarea>
-    </div>
-    <button type="submit" class="px-6 py-2 bg-[#0f4d8a] text-white font-semibold rounded-lg hover:bg-[#0a3a5f] transition">Submit Comment</button>
-  </form>
-  <div id="comments-list" class="mt-6 space-y-4">
-    <p class="text-slate-600 text-sm">Comments will appear here...</p>
-  </div>
-</div>
+
+<hr>
+
+<h3>Comments</h3>
+
+<iframe 
+    src="https://manmeetkap-lxybc.wordpress.com/wp-admin/post.php?post=7&action=edit"
+    style="width:100%; height:600px; border:none; overflow:auto;"
+    loading="lazy">
+</iframe>
+
