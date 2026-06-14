@@ -5,6 +5,7 @@ date: 2026-06-14
 description: "Auto-converted from Word document"
 ---
 
+<head>
 +<style>
 +  /* Make all H2 headings match the larger final H2 */
 +  .prose h2 {
@@ -16,6 +17,7 @@ description: "Auto-converted from Word document"
 +    margin-bottom: 1rem;
 +  }
 +</style>
+</head>
 
 <div class="prose max-w-full">
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Purpose</h2>
@@ -30,9 +32,7 @@ description: "Auto-converted from Word document"
 
 <p class="text-base text-slate-700 mb-3 leading-relaxed">EU – European Union; MHRA – Medicines &amp; Healthcare Products Regulatory Agency; ECDRP – EC Decision Reliance Procedure; CHMP – Committee for Medicinal Products for Human Use</p>
 
-
 <p class="text-base text-slate-700 mb-3 leading-relaxed">IRP route is open to applicants that have already received an authorisation for the <strong>same product</strong><sup><a href="#footnote-4" id="footnote-ref-4">[4]</a></sup> from one of the specified RRs. For the purposes of IRP, a CHMP positive opinion or an MRDC positive end of procedure outcome is considered an RR authorisation.</p>
-
 
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Applications in scope </h2>
 
@@ -43,7 +43,6 @@ description: "Auto-converted from Word document"
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Traditional herbal registrations</li><li>Homoeopathic registrations (Simplified Registration Scheme) and homeopathic national rules authorisations (National Rules Scheme) </li><li>Bibliographic applications</li><li>Well established use (WEU) applications</li></ul>
 
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Other key considerations </h2>
-
 
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>The RR assessment on which IRP is based, must have undergone a full and standalone review. </li><li>Cannot use an RR assessment which itself is based on a reliance or recognition procedure.</li><li>Conditional and exceptional circumstances MAAs (or international equivalent such as provisional or accelerated approval) can support an IRP application.</li><li>Emergency approvals are not eligible.</li><li>Cannot use a cancelled authorisation to support an IRP application.</li><li>Module 3 needs to refer to BP or Ph. Eur. compendial standards. The drug substance, excipients and finished product must comply with these standards, if tested.</li><li>For biosimilars and generics, applicants must ensure – <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>compliance with data periods specified in the HMRs 2012<sup><a href="#footnote-5" id="footnote-ref-5">[5]</a></sup>, and</li><li>that the reference product cited in the application form complies with the definition of a reference product as per the HMRs 2012.</li></ul></li></ul>
 
@@ -121,7 +120,7 @@ description: "Auto-converted from Word document"
 
 <p class="text-base text-slate-700 mb-3 leading-relaxed">CHM – Commission on Human Medicines</p><p class="text-base text-slate-700 mb-3 leading-relaxed">Both IRP routes are substantially shorter than the 210-calendar day timetable for a national MA application.</p><p class="text-base text-slate-700 mb-3 leading-relaxed">Suitability for Recognition A or B is determined by means of an online <a href="https://www.gov.uk/government/publications/international-recognition-procedure/eligibility-checker-and-submitting-your-marketing-authorisation-application">eligibility form</a> to be completed by the applicant 6 weeks before the planned date of MAA submission.</p>
 
-<h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">When and how to submit the eligibility form?</h2> 
+<h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">When and how to submit the eligibility form?</h2>
 
 <div class="overflow-x-auto rounded-lg border border-slate-200 bg-white shadow-sm my-4">
   <table class="min-w-full border-collapse text-sm">
@@ -167,15 +166,12 @@ description: "Auto-converted from Word document"
   </table>
 </div>
 
-
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">
 Post-authorisation IRP applications: Variations and Renewals</h2>
-
 
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Applicable for line extensions, variations (Type 1B, Type II) and renewals. Type 1A variations may be submitted if approved by RR grouped with Type 1B or Type II variations.</li><li>Applicable for products that have been initially authorised or subsequently varied via standalone national, MRDCRP (Mutual Recognition/ Decentralised Reliance Procedure) or ECDRP routes.</li><li>IRP route can be availed after RR approval.</li><li>Should submit the application to MHRA as soon as possible, and no later than 60 days following the final assessment being available from RR.</li><li>Generally recommended to use same RR for IRP applications throughout the product lifecycle, unless justified on patient benefit grounds.</li><li>Recognition routes A and B is only applicable for new IRP MAAs and line extensions.</li></ul>
 
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">For new IRP MAAs, the submission should include:</h2>
-
 
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>Documentation of the RR’s approval decision.</li><li>All available iterations of the RR’s assessment reports for the initial authorisation and any major post-authorisation procedures (for example, significant variations, renewals).</li><li>The final product information (or international equivalent) approved by the RR.</li><li>A list of differences (other than formatting) between the dossier approved by the RR and that submitted to MHRA.</li></ul>
 
@@ -188,7 +184,6 @@ Post-authorisation IRP applications: Variations and Renewals</h2>
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li>IRP offers the fastest UK route when leveraging EMA or other trusted RR approvals.</li><li>Recognition A (60 days) is ideal for straightforward cases; Recognition B (110 days) covers complex scenarios.</li><li>MHRA conducts targeted assessment; retains discretion to reject.</li><li>UK-wide licensing under Windsor Framework simplifies lifecycle management.</li><li>Strategic use of IRP enables synchronised EU–UK submissions, strengthening regulatory agility post-Brexit.</li></ul>
 
 <h2 class="text-2xl font-semibold text-slate-900 mt-10 mb-4">Sources </h2>
-
 
 <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3"><li><a href="https://www.gov.uk/government/publications/international-recognition-procedure">https://www.gov.uk/government/publications/international-recognition-procedure</a> </li><li><a href="https://www.legislation.gov.uk/uksi/2012/1916/contents">https://www.legislation.gov.uk/uksi/2012/1916/contents</a></li></ul><p class="text-base text-slate-700 mb-3 leading-relaxed"></p>
 
@@ -240,9 +235,6 @@ Great Britain (GB) – includes England, Scotland &amp; Wales
 The applicant can request an extension of the clock-stop. <a href="#footnote-ref-7">↑</a>
 </p>
 </li>
-
-
-
 
 </ol>
 </div>
