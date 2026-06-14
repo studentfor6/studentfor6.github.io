@@ -61,9 +61,9 @@ description: "Auto-converted from Word document"
         </td>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
           <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
-            <li>RR approval within previous 10 years.</li>
+            <li>RR approval within previous 10 years<sup><a href="#footnote-6" id="footnote-ref-6">[6]</a></sup>.</li>.
             <li>Adopted if any of the criteria listed at the GOV.UK IRP page are met (e.g., additional manufacturing sites not assessed by RR; substantial changes in manufacturing/analytical methods; ATMPs; orphan designation; comparator sourced outside UK/EU/EEA; etc.).</li>
-            <li>One clock stop at day 70, with up to 60 calendar days for the applicant to respond.</li>
+            <li>One clock stop at day 70, with up to 60 calendar days for the applicant to respond><sup><a href="#footnote-7" id="footnote-ref-7">[7]</a></sup>.</li>
             <li>If there are major outstanding objections at day 110, formal advice on approvability is sought from CHM and the timetable will revert to the national 210-day timetable.</li>
           </ul>
         </td>
