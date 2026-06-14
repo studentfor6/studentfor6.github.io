@@ -245,11 +245,3 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
 
 <hr>
 
-<h3>Comments</h3>
-
-<iframe 
-    src="https://manmeetkap-lxybc.wordpress.com/wp-admin/post.php?post=7&action=edit"
-    style="width:100%; height:600px; border:none; overflow:auto;"
-    loading="lazy">
-</iframe>
-
