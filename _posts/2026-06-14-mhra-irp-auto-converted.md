@@ -61,11 +61,9 @@ description: "Auto-converted from Word document"
         </td>
         <td class="border-b border-slate-200 px-6 py-3 text-slate-700 align-middle">
           <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
-            <li>RR approval within previous 10 years<sup><a href="#footnote-6" id="footnote-ref-6">[6]</a></sup>.</li>.
+            <li>RR approval within previous 10 years<sup><a href="#footnote-6" id="footnote-ref-6">[6]</a></sup>.</li>
             <li>Adopted if any of the criteria listed at the GOV.UK IRP page are met
-            e.g.,-
-
-            <ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
+            e.g.,-<ul class="list-disc pl-6 space-y-2 text-base text-slate-700 mb-3">
               <li>additional manufacturing sites are cited that have not been assessed by the RR. </li>
               <li>There are substantial changes in the manufacturing process or analytical methods compared to that assessed by the RR. </li>
               <li>At least one manufacturing site is not yet GMP certified. </li>
@@ -203,7 +201,7 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
 <hr class="my-8 border-slate-300">
 <p class="text-base text-slate-700 mb-3 leading-relaxed"><strong>Disclaimer</strong></p>
 <p class="text-sm text-slate-600 mb-6 leading-relaxed">This information is provided for educational purposes only and should not be considered as legal or regulatory advice. Always consult with qualified regulatory professionals for specific guidance.</p>
-<p> <br> <em>We welcome your perspectives — please share your thoughts in the comments below. <br></em></p>
+<p> <br> <i> fWe welcome your perspectives — please share your thoughts in the comments below. </i> f<br></p>
 <hr class="my-8 border-slate-300">
 <h3 class="text-lg font-semibold text-[#0f4d8a] mb-4">Comments</h3>
 <div id="comments-section" class="bg-slate-50 p-6 rounded-lg border border-slate-200">
@@ -225,6 +223,4 @@ The applicant can request an extension of the clock-stop. <a href="#footnote-ref
   <div id="comments-list" class="mt-6 space-y-4">
     <p class="text-slate-600 text-sm">Comments will appear here...</p>
   </div>
-</div>
-
 </div>
