@@ -59,7 +59,7 @@ title: A-Star
 <!-- WHAT I CAN HELP YOU ACHIEVE -->
 <section id="services" class="max-w-4xl mx-auto mt-16 px-4">
   <h2 class="text-3xl font-bold text-gray-900 mb-6 text-center animate-fadeIn">
-    What I can help you achieve
+    What we can help you achieve
   </h2>
 </section>
 

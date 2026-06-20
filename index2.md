@@ -52,7 +52,7 @@ permalink: /sandbox/
 <section id="services" class="relative max-w-7xl mx-auto px-6 py-20">
   <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr] items-center">
     <div class="space-y-5">
-      <p class="text-sm uppercase tracking-[0.3em] text-cyan-400">What I can help you achieve</p>
+      <p class="text-sm uppercase tracking-[0.3em] text-cyan-400">What we can help you achieve</p>
       <h3 class="text-3xl md:text-4xl font-semibold text-slate-950">Colorful, modern regulatory services designed for confident pharma teams.</h3>
       <p class="text-slate-600 leading-relaxed">From dossier delivery to submission strategy, the A-Star experience combines polished documentation with user-centered clarity and compliance-first execution.</p>
     </div>
